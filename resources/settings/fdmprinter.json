@@ -446,7 +446,7 @@
                     "description": "The temperature used for printing. Set at 0 to pre-heat yourself. For PLA a value of 210C is usually used.\nFor ABS a value of 230C or higher is required.",
                     "unit": "°C",
                     "type": "float",
-                    "default": 210,
+                    "default": 200,
                     "min_value": 0,
                     "max_value_warning": 260
                 },
@@ -464,7 +464,7 @@
                     "description": "The diameter of your filament needs to be measured as accurately as possible.\nIf you cannot measure this value you will have to calibrate it, a higher number means less extrusion, a smaller number generates more extrusion.",
                     "unit": "mm",
                     "type": "float",
-                    "default": 2.85,
+                    "default": 3.00,
                     "min_value_warning": 0.4,
                     "max_value_warning": 3.5
                 },
